@@ -1,0 +1,100 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.bluedrop.MainActivity" >
+ 
+        <LinearLayout
+            android:id="@+id/LinearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="0dp" >
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:alignmentMode="alignBounds"
+                android:columnCount="2"
+                android:orientation="horizontal"
+                android:padding="0dp" >
+
+                <Button
+                    android:id="@+id/btn_activity"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_column="0"
+                    android:layout_columnSpan="1"
+                    android:layout_gravity="right|bottom"
+                    android:layout_row="0"
+                    android:background="#FB6D59"
+                    android:padding="0dp"
+                    android:text="대외활동"
+                    android:textColor="#fff"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/btn_follow"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_column="0"
+                    android:layout_gravity="right|top"
+                    android:layout_margin="0dp"
+                    android:layout_row="1"
+                    android:background="#FDC15A"
+                    android:padding="0dp"
+                    android:text="팔로우"
+                    android:textColor="#fff"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/btn_profile"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_column="1"
+                    android:layout_gravity="left|bottom"
+                    android:layout_row="0"
+                    android:background="#18BC9A"
+                    android:padding="0dp"
+                    android:text="프로필"
+                    android:textColor="#fff"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/btn_setting"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_column="1"
+                    android:layout_gravity="left|top"
+                    android:layout_row="1"
+                    android:background="#33495E"
+                    android:padding="0dp"
+                    android:text="설정"
+                    android:textColor="#fff"
+                    android:textSize="20sp" />
+
+            </GridLayout>
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/frameLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2" >
+
+            <ListView
+                android:id="@+id/listView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+            </ListView>
+        </FrameLayout>
+
+ 
+
+</LinearLayout>

@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bluedrop.OutActivity"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="0dp" >
+
+        <Button
+            android:id="@+id/btn_gong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#4BACC6"
+            android:padding="20dp"
+            android:textSize="30sp"
+            android:text="공모전 "
+            android:textColor="#FFFFFF"
+             />
+
+        <Button
+            android:id="@+id/btn_bong"
+            android:layout_width="368dp"
+            android:layout_height="wrap_content"
+            android:background="#B9CA59"
+            android:textColor="#FFFFFF"
+            android:padding="20dp"
+            android:textSize="30sp"
+            android:text="봉사활동" />
+
+        <Button
+            android:id="@+id/btn_sur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FDC15A"
+            android:textColor="#FFFFFF"
+            android:padding="20dp"
+            android:textSize="30sp"
+            android:text="서포터즈" />
+
+        <Button
+            android:id="@+id/btn_dong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F28977"
+            android:textColor="#FFFFFF"
+            android:padding="20dp"
+            android:textSize="30sp"
+            android:text="동아리" />
+
+        <Button
+            android:id="@+id/btn_study"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FB6D59"
+            android:textColor="#FFFFFF"
+            android:padding="20dp"
+            android:textSize="30sp"
+            android:text="스터디" />
+
+        <Button
+            android:id="@+id/btn_etc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:textColor="#FFFFFF"
+            android:padding="20dp"
+            android:textSize="30sp"
+            android:text="기타" />
+
+    </LinearLayout>
+
+</RelativeLayout>

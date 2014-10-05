@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#e5e5e5"
+    android:orientation="horizontal" 
+    android:padding="3dp"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:padding="5dp" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="81dp"
+            android:layout_height="81dp"
+            android:padding="10dp"
+            android:src="@drawable/member" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape"
+            android:orientation="vertical"
+            android:padding="3dp" >
+
+            <TextView
+                android:id="@+id/user_name"
+                android:layout_width="264dp"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="user_name"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/sns_text"
+                android:layout_width="274dp"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="대외활동 sns 예제를 만들어보자"
+                android:textColor="#FFFFFF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="bottom|right"
+                android:padding="3dp" >
+
+                <ImageButton
+                    android:id="@+id/imageButton1"
+                    android:layout_width="44dp"
+                    android:layout_height="32dp"
+                    android:adjustViewBounds="false"
+                    android:background="#424242"
+                    android:baselineAlignBottom="false"
+                    android:cropToPadding="false"
+                    android:focusableInTouchMode="false"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/share" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">bluedrop</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_out">OutActivity</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="title_activity_follow">FollowActivity</string>
+
+    <string name="history_1">이쁘고 맛있는 마카롱을 만드는 가장 중요한 것은 가루류를 여러번 체로 치는것 적어도 3번이상, 미리 체로 쳐 가루류를 준비해둡니다.</string>
+    <string name="history_2">마카롱의 "전부" 라고 할 수 있는 머랭을 내야죠. 머랭은 달걀흰자를 거품낸 것으로 이것도 여러번 해보면서 감을 잡는 수밖에 없어요.</string>
+    <string name="history_3">어느정도 다 섞였으면 주걱의 면으로 반죽하며 일부로 머랭을 주깁시다. 이 작업을 "마카로나쥬" 라고 하는데 이 작업또한 여러번 해보며 감을 잡아야 합니다. 약간 툭툭 흐르는 정도의 질감이 적절하구요. 이걸 잘 해줘야 매끈한 밑면과 이쁜 프릴이 살아나요.</string>
+    <string name="history_4">짤주머니는 미리 셋팅해두셔야죠.그럼 일명 짜르가즘을 느낄 수 있는 짯짯타임을 가져봅시다.</string>
+    <string name="history_5">망한 마카롱을 봤을 때 나의 심정</string>
+    <string name="history_6">망했어...망했다고 결국 난 안되는놈인가봐...</string>
+    <string name="history_7">고구마전호박전고구마전호박전고구마전호박전</string>
+    <string name="history_8">"저 계정은 사칭 계정이다." - 조지 워싱턴</string>
+    <string name="history_9">"인터넷에 올라오는 유명인 어록을 함부로 믿지 마라." - 에이브러햄 링컨</string>
+    <string name="history_10">치킨은 항상 옳다</string>
+    
+    <string name="title_1">브레인껌</string>
+    <string name="title_2">치즈방울</string>
+    <string name="title_3">초코방울</string>
+    <string name="title_4">용꼬리</string>
+    <string name="title_5">안깐마늘</string>
+    <string name="title_6">황금방울</string>
+    <string name="title_7">치즈고양이</string>
+    <string name="title_8">유령</string>
+    <string name="title_9">유니콘뭉치</string>
+    <string name="title_10">모카커피</string>
+</resources>

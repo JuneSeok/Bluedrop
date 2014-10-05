@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp" >
+
+        <ImageView
+            android:id="@+id/iconItem"
+            android:layout_width="81dp"
+            android:layout_height="81dp"
+            android:padding="10dp"
+            android:src="@drawable/refresh" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape"
+            android:orientation="vertical"
+            android:padding="3dp" >
+
+            <TextView
+                android:id="@+id/dataItem01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:textColor="#FFFFFF"
+                android:textSize="12dp"
+                android:text="IT,공학"
+                 />
+
+            <TextView
+                android:id="@+id/dataItem02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="2014 한이음 공모대전"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="bottom|right"
+                android:padding="3dp" >
+
+                <TextView
+                    android:id="@+id/dataItem03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2014.8.12"
+                    android:textColor="#FFFFFF" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

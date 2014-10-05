@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- list_view에 사용할 레이아웃. 각각이 하나의 아이템이 된다. -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#e5e5e5"
+    android:orientation="horizontal"
+    android:padding="8dp" >
+
+    <!-- 유저 프로필 이미지 -->
+
+    <ImageView
+        android:id="@+id/profile_thumbnail"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:background="#1e90ff" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:gravity="right|center"
+            android:padding="3dp" >
+
+            <TextView
+                android:id="@+id/sns_text"
+                android:layout_width="232dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.84"
+                android:padding="5dp"
+                android:text="대외활동 sns 예제를 만들어보자"
+                android:textColor="#666666" />
+
+            <Button
+                android:id="@+id/reply"
+                android:layout_width="35dp"
+                android:layout_height="wrap_content"
+                android:background="#00bfFf"
+                android:minHeight="30dip"
+                android:padding="0dp"
+                android:text="+"
+                android:textColor="#fff" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.bluedrop.MainActivity" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_profile"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="#18BC9A"
+                android:padding="0dp"
+                android:text="프로필"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn_setting"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="#33495E"
+                android:padding="0dp"
+                android:text="설정"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="0dp" >
+
+            <Button
+                android:id="@+id/btn_activity"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="#FB6D59"
+                android:padding="0dp"
+                android:text="대외활동"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn_follow"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="0dp"
+                android:background="#FDC15A"
+                android:padding="0dp"
+                android:text="팔로우"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+        </LinearLayout>
+        
+        
+        
+
+        <com.handmark.pulltorefresh.library.PullToRefreshListView
+            android:id="@+id/TimeineList"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="#00000000"
+            android:divider="#19000000"
+            android:dividerHeight="4dp"
+            android:fadingEdge="none"
+            android:fastScrollEnabled="false"
+            android:footerDividersEnabled="false"
+            android:headerDividersEnabled="false"
+            android:padding="0dp"
+            android:smoothScrollbar="true" />
+
+</LinearLayout>

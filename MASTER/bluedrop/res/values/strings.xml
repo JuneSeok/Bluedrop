@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">대외활동 매니저</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_out">OutActivity</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="title_activity_follow">FollowActivity</string>
+    <string name="history_1"> [한이음 공모대전]\n스크랩 하였습니다.</string>
+    <string name="history_2"> 공지\n오늘 9시 온라인 회의 있습니다.</string>
+    <string name="history_3"> 봉사활동\n봉사동아리 21기 신입회원 모집기간이 D-7 마감됩니다!</string>
+    <string name="history_4"> 추천\n2014 구글 해커톤이 개최됩니다.</string>
+    <string name="history_5"> 준석님이 나를 팔로우하기 시작했습니다</string>
+    <string name="history_6"> IT,공학 \n 내 관심분야에 새로운 활동이 등록되었습니다 지금 확인 해보세요!</string>
+    <string name="history_7"> 새 프로필을 등록 하였습니다</string>
+    <string name="history_8"> 나와 관심분야가 같은 친구들을 찾아 보세요 </string>
+    <string name="history_9"> 스터디 \n 내 관심분야에 새로운 활동이 등록되었습니다 지금 확인 해보세요!</string>
+    <string name="history_10">치킨은 항상 옳다</string>
+    <string name="title_1">내 활동</string>
+    <string name="title_2">BlueDrop</string>
+    <string name="title_3">어린이공부방</string>
+    <string name="title_4">Google</string>
+    <string name="title_5">팔로우</string>
+    <string name="title_6">관심분야 알리미</string>
+    <string name="title_7">프로필</string>
+    <string name="title_8">팔로우</string>
+    <string name="title_9">관심분야 알리미</string>
+    <string name="title_10">모카커피</string>
+    <string name="title_activity_gong">GongActivity</string>
+    <string name="_1">장동건</string>
+    <string name="_2">현빈</string>
+    <string name="_3">황정민</string>
+    <string name="_4">장나라</string>
+    <string name="_5">수애</string>
+    <string name="_6">고소영</string>
+    <string name="_7">차태현</string>
+    <string name="_8">이연희</string>
+    <string name="_9">한이음</string>
+    <string name="blank"></string>
+    <string name="title_activity_gong__pizza">Gong_Pizza</string>
+
+</resources>

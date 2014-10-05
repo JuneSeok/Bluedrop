@@ -1,0 +1,130 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="center"
+    tools:context="com.example.contestlist.Gong_Pizza" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       
+         >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#00b0f0"
+                android:padding="10dp"
+                android:text="제 8회 그녀들의 피자 콘테스트"
+                android:textColor="#ffffff"
+                android:textSize="25dp" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="top"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="0dp"
+                    android:src="@drawable/pizzaful" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="
+               
+  \n● 응모 자격
+    \n 미스터피자를 사랑하는 남녀노소 누구나!\n(동종업계 종사자도 가능)
+ \n
+  \n● 응모 주제 
+    \n Ladies First! 미스터피자와 어울리는 피자,\n 샐러드바 메뉴를 만들어주세요
+ \n
+  \n● 시상 내역
+    \n[피자 요리 부문]
+    \n  대상 : 新피자 출시, 상금 2,000,000원, 상패
+    \n  금상 : 상금 1,000,000원, 상패
+    \n  은상 : 상금 500,000, 상패
+    \n  동상 : 상금 300,000, 상패
+    \n  장려상(2팀) : 상금 200,000원, 상패
+    \n
+    \n
+    \n[샐러드바 요리 부문]
+    \n  최우수상 : 상금 1,000,000원, 상패
+    \n  우수상 : 상금 500,000원, 상패
+    \n  아이디어상 : 상금 200,000원, 상패
+ 
+ \n
+  \n● 참가혜택
+    \n- 수상자 전원 MPK 그룹 입사 시 가산점
+    \n- 응모자 전원 피자 시식권
+
+ \n
+  \n● 응모 일정
+    \n- 응모기간 : 2014년 9.22(월) ~ 10.12(일)
+    \n- 본선일 : 2014년 10.24(금)
+ 
+ \n
+  \n● 접수 방법 
+    \n- www.mrpizza.co.kr 에서 온라인 접수
+ \n
+  \n● 문의 사항
+    \n ☎ 02-590-9524 
+    \n E : rookie@mrpizza.co.kr
+                    
+                    
+                    
+                    
+                    
+                    "
+                    
+                    
+                    
+                     >
+                    
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right" >
+
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="right"
+                    android:background="@drawable/share" />
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="right"
+                    android:background="@drawable/zzim" />
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="right"
+                    android:background="@drawable/backlist" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
